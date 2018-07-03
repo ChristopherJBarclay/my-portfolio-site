@@ -1,0 +1,153 @@
+<!-- index_3.2.html -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=0.8,maximum-scale=1,user-scalable=yes">
+	
+	<!-- Apple Meta Tags -->
+	<meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+	
+	<title>Portfolio | Chris Barclay - Web Developer &amp; Front End Engineer</title>
+	
+	<!-- MY_CSS -->
+	<link href="css/styles_3.2.css" rel="stylesheet" type="text/css">
+	
+	<!-- LINKS -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+	
+	<!-- defer icon - stops page layout shift -->
+	<script defer src="/static/fontawesome/fontawesome-all.js"></script>
+	
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+<body>
+<!-- single page, everything centered -->
+	
+		<div class="header">
+			<div id="logo">
+				<img class="logo" src="pictures/cb-logo-hex.png" alt="logo">
+				<div class="name">
+				<div id="name">Chris Barclay</div>
+				<div id="title">Web Developer</div></div>
+			</div>
+			
+		<!-- NAV BAR -->
+			<nav id="nav-1">
+				<ul>
+					<li class="nav-btn"><a href='#port'>PORTFOLIO</a></li>
+					<li class="nav-btn"><a href='#tech'>TECHNOLOGIES</a></li>
+					<li class="nav-btn"><a href='#about'>ABOUT</a></li>
+				</ul>
+			</nav>
+			<nav id="nav-2">
+				<ul>
+					<li class="nav-btn"><a href='https://www.linkedin.com/in/christopherbarclay'><i class="fab fa-linkedin"></i>LINKEDIN</a></li>
+					<li class="nav-btn"><a href='https://github.com/Clesoud'><i class="fab fa-github"></i>GITHUB</a></li>
+					<li class="nav-btn"><a href='https://codepen.io/Clesoud'><i class="fab fa-codepen"></i>CODEPEN</a></li>
+					<!-- social icon css is found at #footer in stylesheet -->
+				</ul>
+			</nav>
+		</div><!--END HEADER-->
+	
+	<!-- LANDING PAGE -->
+	<div id="landing-page">
+		<div class="titles">
+			<h1>Front End Engineering</h1>
+			<h2>Elegant, responsive web development for an exceptional user experience</h2>
+		</div>
+	</div><!-- end of landing page div -->
+	
+	
+	<!-- PORTFOLIO --> 
+	<div id="port">
+		<h3>Portfolio</h3>
+		
+		<div class="frame">
+			<iframe id="band-site" src="http://cbarclay.io/band_site" scrolling="no" seamless></iframe>
+			<a href="http://cbarclay.io/band_site"></a>
+				<p class="frame-p">Responsive Design, HTML5, CSS3, Bootstrap 4</p>
+		</div> <!-- portfolio frame -->
+		<div>
+			<div class="frame">
+				<iframe id="author-site" src="http://cbarclay.io/author_site" scrolling="no" seamless></iframe>
+				<a href="http://cbarclay.io/author_site"></a>
+				<p class="frame-p">Responsive, HTML5, CSS3, Bootstrap 4</p>
+			</div> <!-- portfolio frame -->
+		</div>
+		<div class="frame">
+			<iframe id="my-site" src="http://cbarclay.io" scrolling="no" seamless></iframe>
+			<a href="http://cbarclay.io"></a>
+				<p class="frame-p">My responsive portfolio site used only HTML5 and CSS3</p>
+		</div> <!-- portfolio frame -->
+	</div>
+	
+	<!-- 
+	<div id="testimonials">
+		<div class="testi q-1">
+			<div><i class="fas fa-quote-left quote"></i></div>
+			<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitu.</blockquote>
+			<p>&#8212; &nbsp; Quotey McQuoterson, COMP</p><br/></div>
+		<div class="testi q-2">
+			<div><i class="fas fa-quote-left quote"></i></div>
+			<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitu.</blockquote>
+			<p>&#8212; &nbsp; Quotey McQuoterson, COMP</p><br/>
+		</div>
+	</div><!--end testimonials-->
+	
+	
+	<!-- TECHNOLOGIES SECTION -->
+	<div id="tech" class="tech-icons">
+		<h3>Technologies I use</h3>
+			<ul>
+				<li id="html"><img src="pictures/tech_icons/html5_logoTiny.png"  alt="html icon">HTML5</li>
+				<li id="css"><img src="pictures/tech_icons/css3_logoTiny.png"  alt="css icon">CSS3</li>
+				<li id="js"><img src="pictures/tech_icons/js_logoTiny.png"  alt="javascript icon">JavaScript</li>
+				<li id="jquery"><img src="pictures/tech_icons/jquery_logoTiny.png"  alt="jQuery icon">jQuery</li>
+				<li id="bootstrap"><img src="pictures/tech_icons/bootstrap_logoTiny.png"  alt="bootstrap icon">Bootstrap 4</li>
+				<!-- <li id="react"><img src="pictures/tech_icons/react_logoTiny.png"  alt="react icon">React.js</li>
+				<li id="wordpress"><img src="pictures/tech_icons/wordpress_logoTiny.png"  alt="wordpress icon">Wordpress</li> -->
+				<li id="github"><img src="pictures/tech_icons/github_logoTiny.png"  alt="github icon">GitHub</li>
+				<!-- <li id="git"><img src="pictures/tech_icons/git_logoTiny.png"  alt="git icon">Git</li> -->
+				<li id="node"><img src="pictures/tech_icons/node_logoTiny.png"  alt="node JS icon">NodeJS</li>
+				<li id="mysql"><img src="pictures/tech_icons/MySQL_logoTiny.png"  alt="MySQL icon">MySQL</li>
+			</ul>
+	</div>
+	
+	
+	<!--FOOTER-->
+	<div id="footer">
+		<span id="about">
+			
+			<span id="pic-words">
+				<img src="pictures/chris_pic.jpg" alt="A picture of Chris"> Hello, I&#39;m Christopher. <br>I create visually appealing web experiences. I build custom user interfaces, web sites, and applications, according to the latest W3C web standards guidelines. Please feel free to contact me if you are interested in working together by emailing Chris @ cbarclay.io (exlude the spaces). Thank you for checking out my site and have an awesome day!
+		</span></span>
+		<div id="footer-social">
+			<ul>
+				<li><a href='https://www.linkedin.com/in/christopherbarclay'><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+				
+				<li><a href='https://github.com/Clesoud'><i class="fab fa-github"></i>GitHub</a></li>
+				
+				<li><a href='https://codepen.io/Clesoud'><i class="fab fa-codepen"></i>CodePen</a></li>
+			</ul>
+		</div>
+		<div id="foot-nav">
+			<ul>
+				<li><a href='#logo'> HOME </a></li>
+				<li><a href='#port'> PORTFOLIO </a></li>
+				<li><a href='#tech'> TECHNOLOGIES </a></li>
+				<li><a href='#about'> ABOUT </a></li>
+			</ul>
+		</div>
+		<div id="copyright">Copyright &copy; 2018 Christopher Barclay</div>
+	</div><!--end-footer-->
+
+</body>
