@@ -1,5 +1,7 @@
 # My-Website
 
-My personal website.
+My personal portfolio website.
 
-I coded this website with CSS3, HTML5, and the Brackets text editor only. No libraries, frameworks, site-building tools, or other programming languages were used. 
+I coded this website using CSS3 and HTML5, on the Brackets text editor. 
+
+I did not use any libraries, frameworks, site-building tools, or other programming languages. 
